@@ -1,5 +1,5 @@
 build:
-	go build -o out/validate
+	go build -o dist/validate
 
-install:
-	sudo mv out/validate /usr/local/bin/
+install_local:
+	sudo mv dist/validate /usr/local/bin/

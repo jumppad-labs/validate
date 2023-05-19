@@ -27,7 +27,7 @@ var historyContainsCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		value := args[0]
 
-		histfile := "/var/lib/jumppad/history"
+		histfile := "/run/jumppad/history"
 		content := []byte{}
 		if _, err := os.Stat(histfile); err == nil {
 			content, err = os.ReadFile(histfile)
