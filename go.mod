@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/kr/pretty v0.3.1
 	github.com/oliveagle/jsonpath v0.0.0-20180606110733-2e52cf6e6852
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 )
 
 require (
